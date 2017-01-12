@@ -1,0 +1,16 @@
+<import src="../index/index.wxml"/>
+<view class="container">
+    <view class="topest">
+        <view class="titleback">
+            <view class="topest_title1">公有云</view>
+            <view class="topest_title2">灵活便利的云平台</view>
+        </view>
+        <image src="../../image/public.png" class="pic"></image>
+    </view>
+    <block wx:for="{{list}}">
+        <template is="list" data="{{item}}"/>
+    </block>
+</view>
+
+
+

@@ -1,0 +1,13 @@
+<view class="container">
+    <view class="topest">
+        <view class="titleback">
+            <view class="topest_title1">混合云</view>
+            <view class="topest_title2">扩展更大选择空间</view>
+        </view>
+        <image src="../../image/mix.png" class="pic"></image>
+    </view>
+    
+    <import src="../index/index.wxml"/>
+
+    <template is="list" data="{{item}}" wx:for="{{list}}"/>
+</view>

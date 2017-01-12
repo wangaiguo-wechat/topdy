@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/index/index",
+    "pages/mix/mix",
+    "pages/private/private"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#5873ed",
+    "navigationBarTitleText": "鼎云科技",
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#efeff4"
+  },
+  "tabBar": {
+    "backgroundColor": "#5873ed",
+    "position":"top",
+    "color": "#d9dcf1",
+    "selectedColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text":"公有云"
+    },{
+      "pagePath":"pages/private/private",
+      "text":"私有云"
+    },{
+      "pagePath": "pages/mix/mix",
+      "text":"混合云"
+    }]
+  }
+}

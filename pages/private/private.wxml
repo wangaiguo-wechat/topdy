@@ -1,0 +1,14 @@
+
+<view class="container">
+    <view class="topest">
+        <view class="titleback">
+            <view class="topest_title1">私有云</view>
+            <view class="topest_title2">打开自己的云空间</view>
+        </view>
+        <image src="../../image/private.png" class="pic"></image>
+    </view>
+    <import src="../index/index.wxml" />
+    <block wx:for="{{list}}">
+        <template is="list" data="{{item}}"/>
+    </block>
+</view>

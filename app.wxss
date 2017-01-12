@@ -1,0 +1,78 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /*padding: 200rpx 0;*/
+  box-sizing: border-box;
+  background-color: #efeff4;
+} 
+.topest{
+  margin-top: 10px;
+  width: 710rpx;
+  height: 326rpx;
+  background-color: #4866ec;
+  border-radius: 10rpx;
+}
+.topest .titleback{
+  height: 110rpx;
+  width: 250rpx;
+  margin-top: 108rpx;
+  margin-left: 10px;
+  float: left;
+}
+.topest .titleback .topest_title1{
+  color: #ffffff;
+  font-size: 38rpx;
+  width:130rpx;
+  height: 40rpx;
+}
+.topest .titleback .topest_title2{
+  color: #ffffff;
+  font-size: 30rpx;
+  width: 250rpx;
+  height: 30rpx;
+  margin-top: 10px;
+
+}
+.topest .pic{
+  width: 322rpx;
+  height: 260rpx;
+  margin-top: 33rpx;
+  margin-right: 20rpx;
+  float: right;
+}
+
+.list{
+  width: 710rpx;
+  /*height: 265rpx;*/
+  border-radius: 10rpx;
+  background-color: white;
+  min-height: 265rpx;
+  max-height: auto;
+  margin-top: 15px;
+}
+.list .listtitle{
+  width: 710rpx;
+  height: 36rpx;
+  font-size: 34rpx;
+  color: black;
+  margin-top: 30rpx;
+  text-align: center;
+}
+.list .line{
+  width: 50px;
+  height: 1px;
+  background-color: #09bb07;
+  margin: 20rpx  auto;
+}
+.list .detail{
+  width: 600rpx;
+  font-size: 26rpx;
+  height: auto;
+  color: #a9a9a9;
+  margin: 10rpx auto;
+  line-height: 150%;
+}

@@ -15,6 +15,7 @@
   height: 326rpx;
   background-color: #4866ec;
   border-radius: 10rpx;
+  box-shadow: 2rpx 2rpx 20rpx rgba(0, 0, 0, 0.1);
 }
 .topest .titleback{
   height: 110rpx;
@@ -53,6 +54,7 @@
   min-height: 265rpx;
   max-height: auto;
   margin-top: 15px;
+  box-shadow: 2rpx 2rpx 20rpx rgba(0, 0, 0, 0.1);
 }
 .list .listtitle{
   width: 710rpx;
